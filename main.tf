@@ -3,7 +3,7 @@ provider "azurerm" {
 }
 
 
-resource "azurerm_resource_group" "testrg" {
-  name     = "testrg"
+resource "azurerm_resource_group" "resourcegroup" {
+  name     = "resourcegroup"
   location = "West Europe"
 }
